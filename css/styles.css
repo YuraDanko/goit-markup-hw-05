@@ -170,7 +170,7 @@ img {
     background: #404bbf;
 }
 /* BENEFITS */
-.visual-hiden {
+.visually-hidden {
     position: absolute;
         width: 1px;
         height: 1px;
@@ -462,6 +462,7 @@ img {
     letter-spacing: 0.04em;
     color: #ffffff;
     padding-left: 16px;
+    background-color: transparent;
 }
 .button-submit{
     display: flex;
@@ -471,12 +472,18 @@ img {
     gap: 16px;
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     background-color: #4d5ae5;
     border: none;
     fill: #FFFFFF;
     color: #FFFFFF;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+}
+.svg-send{
+    margin-left: 16px;
 }
 /* BACKDROP */
 .backdrop{
@@ -635,7 +642,7 @@ img {
 .rewiew-form-checkbox:checked + .rewiew-checkbox-wrapper .rewiew-span-checbox{
     background-color: #404bbf;
     border: #404bbf;
-    fill: #FFFFFF;
+    fill: #F4F4FD;
 }
 .privacy-policy {
     color: #4d5ae5;

@@ -481,6 +481,11 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     font-weight: 500;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button-submit:hover,
+.button-submit:focus{
+    background: #404bbf;
 }
 .svg-send{
     margin-left: 16px;
@@ -663,4 +668,8 @@ img {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+}
+.rewiew-form-submit:hover,
+.rewiew-form-submit:focus{
+    background: #404bbf;
 }
